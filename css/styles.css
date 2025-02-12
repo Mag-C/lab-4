@@ -25,22 +25,34 @@ body{
     font-family: "Roboto", serif;
 
 }
+
+a{}
 /*----------- HEADER ------------*/
 
 header{
-    font-size: 9.6rem;
     background-color: #34495E;
-    font-weight: 900;
-    color: white;
+    color: white; 
 }
 
-header p{
+h1{
     margin: 0;
+    letter-spacing: 0.36em;
+    white-space: nowrap;
+    font-weight: 900;
+    font-size: 9.6rem;
 }
+
 
 
 /*------------ SECTIONS ----------*/
 
+/*----- SLOGAN -----*/
+h1
+
+/*----- REGLES -----*/
+
+
+/*------ INFO -----*/
 
 
 /*----------- ARTICLES ----------*/
