@@ -26,12 +26,16 @@ body{
 
 }
 
-a{}
+a{
+    text-decoration: none;
+    color: black;
+}
 /*----------- HEADER ------------*/
 
 header{
     background-color: #34495E;
-    color: white; 
+    color: white;
+    padding: 44px 0; 
 }
 
 h1{
@@ -40,6 +44,7 @@ h1{
     white-space: nowrap;
     font-weight: 900;
     font-size: 9.6rem;
+
 }
 
 
@@ -47,16 +52,94 @@ h1{
 /*------------ SECTIONS ----------*/
 
 /*----- SLOGAN -----*/
-h1
+.slogan{
+    padding: 55px 0;
+}
+.slogan p{
+    letter-spacing: 0.055em;
+    font-size: 4.8rem;
+    font-family: "Lato", serif;
+    text-align: right;
+}
 
 /*----- REGLES -----*/
 
+.regles .wrapper{
+    display: grid;
+    gap: 22px;
+}
+.regles article:hover{
+    background-color: #BDC3C7;
+    
+}
 
+.regles a{
+    display: flex;
+    justify-content:space-between;
+    font-family: "Quicksand", serif;
+    font-size: 3.6rem;
+    align-items: center;
+    padding: 0 50px ;
+    gap: 30px;
+    
+}
+
+.rond{
+    width: 210px;
+    height: 210px;
+    border: 5px solid #D35400;
+    border-radius: 210px;
+    color: #D35400;
+    letter-spacing: 0.05em;
+    font-size: 3rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 /*------ INFO -----*/
 
+.info .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 60px;
+    line-height: 40px;
+    margin-top: 31px;
+    gap: 60px;
+}
 
-/*----------- ARTICLES ----------*/
-
-
+.info p{
+    font-size: 2rem;
+    margin: 0;
+}
 
 /*---------- FOOTER ----------*/
+
+footer{
+    background-color: #2980B9;
+    margin-top: 40px;
+}
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 23px;
+    align-items: center;
+}
+
+footer p{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.material-symbols-outlined{
+    width: 50px;
+    height: 50px;
+    border: 3px solid #BDC3C7;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
